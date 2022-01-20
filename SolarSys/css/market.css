@@ -1,0 +1,297 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Kanit', sans-serif;
+  
+  
+  }
+  
+  
+  .container{
+    width: 85%;
+    margin: auto;
+    overflow: hidden;
+  
+  
+  
+  
+  
+  }
+  
+  .hero{
+    background-image: url(../imgs/aaa.jpg);
+    height: 100%;
+    background-size:cover;
+    background-attachment: fixed;
+    background-position: top;
+    overflow: auto;
+  
+  
+  }
+  
+ 
+  header ul {
+    float: right;
+      margin-right: 3%;
+      margin-top: 17px;}
+  
+  header ul li {
+    display: inline-block;
+      font-weight: bold;
+      font-size: 30px;
+      letter-spacing: -1px;
+      padding: 4px;
+      cursor: pointer;
+  
+  }
+  header ul li a:hover{
+    color: black
+  }
+
+  header ul li a{text-decoration: none;
+    color: #fff;
+  }
+
+
+
+
+
+
+
+
+
+
+  /*---------------Menu----------*/
+
+
+.menu {
+  text-align: center;
+  height: 544px
+}
+
+
+.menu h1 {
+
+  font-size: 52px;
+    font-weight: bold;
+    padding-top: 73px;
+    padding-bottom: 31px;
+    margin-top: 0px;
+    margin-bottom: 9px;
+    word-spacing: 1px;
+    color: #fff5e1;
+
+}
+.none{
+  display: none;
+}
+
+.menu ul li {
+  display: inline;
+}
+
+.menu ul li a {
+  text-decoration: none;
+    color: #fef5e1;
+    padding: 9px;
+    font-weight: bold;
+    text-transform: capitalize;
+    font-size: 32px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Test */
+
+
+#Market{
+  background-color: #EEEFEC;
+
+}
+
+
+.items div{
+  background-color: #fff;
+    float: left;
+    margin: 1%;
+    width: 31%;
+    height: 556px;
+    text-align: center;
+    overflow: hidden;
+    border-radius: 24px;
+    margin-top: 33px;
+  }
+.items img {
+  width: 193px;
+  height: 299px;
+  text-align: center;
+  padding-top: 0px;
+  margin-top: 56px;
+}
+
+.items p {
+    padding-top: 51px;
+    font-size: 28px;
+    font-weight: bold;
+    color: black;
+    padding-bottom: 11px;
+
+    }
+.items span{
+  color: #F9D04D;
+  font-size: 23px;
+
+}
+
+
+
+
+
+
+@media ( min-width:1200px ) and (max-width: 1600px ) {
+  .items img{
+    width: 248px;
+    height: 217px;
+
+  }
+
+  .items p {
+    font-size: 22px;
+  }
+
+  .items div {
+    height: 460px
+  }
+
+}
+
+
+
+
+@media ( min-width: 856px ) and (max-width:1200px ) {
+
+  .items p {
+      font-size: 24px;
+
+  }
+  .items img {
+    width: 148px;
+    height: 227px;
+
+}
+
+.items div {
+
+    width: 28%;
+    height: 457px;
+
+}
+.items div:first-of-type {
+    margin-left: 8%;
+}
+}
+
+
+
+
+
+
+@media ( min-width: 440px ) and (max-width:855px ) {
+  .items div {
+    margin-left: 13%;
+    float: none;
+    width: 74%;
+    margin-bottom: 23px;
+
+
+}
+
+
+}
+
+
+
+@media (max-width:439px ) {
+  .items div {
+    margin-left: 0%;
+    margin-bottom: 23px;
+    width: 100%;
+
+
+
+}
+.items div:first-of-type {
+    margin-left: 0%;
+}
+.items img {
+  width: 275px;
+    height: 227px;
+}
+
+
+}
+
+
+/* __________________________Market Button_________________________________  */
+
+.button {
+  
+  background-color: #0d0d0d;
+  border: none;
+  display: inline-block;
+  text-align: center;
+  font-size: 28px;
+  padding: 13px;
+
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+  margin-top: 10px;
+  
+}
+
+.button span {
+cursor: pointer;
+display: inline-block;
+position: relative;
+transition: 0.5s;
+}
+
+.button span:after {
+content: '\00bb';
+position: absolute;
+opacity: 0;
+top: 0;
+right: -20px;
+transition: 0.5s;
+}
+
+.button:hover span {
+padding-right: 25px;
+}
+
+.button:hover span:after {
+opacity: 1;
+right: 0;
+}
+
+
+/* __________________________Market 1_________________________________  */
+
+
+
+
+
+
