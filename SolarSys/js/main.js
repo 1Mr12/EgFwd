@@ -1,3 +1,34 @@
+
+// _____________________________ Project Part _____________________________
+
+// get all sections in the landing Page
+var allSections = document.getElementsByTagName("section");
+
+// function to add a navigational headline if it found
+function addId(itemId){
+  var section = itemId.id
+  if (typeof section != 'undefined' ) {
+    // append it to the List
+    var li = document.createElement("li");
+    li.setAttribute('data-s', '#'+section);
+    li.appendChild(document.createTextNode(section));
+    document.getElementById("list").appendChild(li);;
+
+  }
+  
+}
+
+
+
+// loop through it to find each id of each section
+for (item in allSections) {
+  addId(allSections[item]);
+}
+
+// _____________________________ Project Part _____________________________
+
+
+/*
 // dynamically updating navigational menu
 // fethc the sections id
 $('section').each(function() {
@@ -10,6 +41,8 @@ $('section').each(function() {
   
 
 })
+
+*/
 
 
 
@@ -40,7 +73,7 @@ $(".items div").on('mouseleave', function() {
 });
 
 // moving the scroll to spacifc part bassed on id
-$("ul li ").on('click', function(e) {
+$("header li ").on('click', function(e) {
 	$("body ,html  ").animate({
 	  scrollTop: $($(this).data('s')).offset().top
 	  },

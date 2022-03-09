@@ -360,6 +360,8 @@ body{scrollbar-width: none;}
 
 header{
   color: #fff;
+  text-align: right;
+  margin-top: 31px;
 
 
 }
@@ -368,7 +370,7 @@ header ul {
     margin-right: 3%;
     margin-top: 49px;}
 
-header ul li {
+header li {
   display: inline-block;
     font-weight: bold;
     font-size: 30px;
